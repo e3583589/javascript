@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+    <title>Quote of the Day</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h1>Quote of the Day Program</h1>
+
+<script>
+
+// Create an array with 5 quotes
+let quotes = [
+    "Stay positive.",
+    "Work hard and stay focused.",
+    "Always be kind.",
+    "Never give up on your goals.",
+    "Dream big and believe in yourself."
+];
+
+// Prompt the user to enter a number
+let userNumber = parseInt(prompt("Enter a number:"));
+
+// Divide the number by 5 and get the remainder
+let index = userNumber % 5;
+
+// Display the selected quote
+document.write("<h2>Quote of the Day:</h2>");
+document.write("<p>" + quotes[index] + "</p>");
+
+// Create an array of 3 favorite websites
+let websites = [
+    "https://www.google.com",
+    "https://www.youtube.com",
+    "https://www.Audible.com"
+];
+
+// Prompt the user for their favorite website
+let newWebsite = prompt("Enter your favorite website URL:");
+
+// Add to the end of the array
+websites.push(newWebsite);
+
+// Remove first website from the array
+websites.shift();
+
+// Display the updated website list
+document.write("<h2>Updated Favorite Websites:</h2>");
+
+for (let i = 0; i < websites.length; i++) {
+    document.write(`<a href="${websites[i]}" target="_blank">${websites[i]}</a><br>`);
+}
+
+</script>
+
+</body>
+</html>
