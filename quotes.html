@@ -36,18 +36,29 @@ let websites = [
     "https://www.Audible.com"
 ];
 
+// Display original 3 websites
+document.write("<h2>Original Favorite Websites:</h2>");
+for (let i = 0; i < websites.length; i++) {
+    document.write(websites[i] + "<br>");
+}
+
 // Prompt the user for their favorite website
 let newWebsite = prompt("Enter your favorite website URL:");
 
 // Add to the end of the array
 websites.push(newWebsite);
 
-// Remove first website from the array
+// Display after adding user website
+document.write("<h2>After Adding Your Website:</h2>");
+for (let i = 0; i < websites.length; i++) {
+    document.write(websites[i] + "<br>");
+}
+
+// Remove first website
 websites.shift();
 
-// Display the updated website list
+// Display final updated list
 document.write("<h2>Updated Favorite Websites:</h2>");
-
 for (let i = 0; i < websites.length; i++) {
     document.write(`<a href="${websites[i]}" target="_blank">${websites[i]}</a><br>`);
 }
