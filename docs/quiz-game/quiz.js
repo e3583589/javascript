@@ -1,13 +1,13 @@
 let questions = [
-    "Who poisoned Snow White?",
-    "What made Rapunzel's hair special?",
+    "Which princess has a pet tiger?",
+    "Who stole repunzel?",
     "Which princess lost a glass slipper?",
     "Which princess turns into a frog?"
 ];
 
 let answers = [
-    "evil queen",
-    "magic flower",
+    "jasmine",
+    "Stepmother",
     "cinderella",
     "tiana"
 ];
