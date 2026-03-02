@@ -1,13 +1,13 @@
 let questions = [
     "Which princess has a pet tiger?",
-    "Who stole repunzel?",
+    "Which disney princess was cursed to sleep for a 100 years?",
     "Which princess lost a glass slipper?",
     "Which princess turns into a frog?"
 ];
 
 let answers = [
     "jasmine",
-    "Stepmother",
+    "aurora",
     "cinderella",
     "tiana"
 ];
