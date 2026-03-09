@@ -75,7 +75,7 @@ function validateEmail() {
 
         let parts = email.split("@");
 
-        let username = parts[0];
+        let username = parts[0]. toUpperCase();
         let domain = parts[1];
 
         document.getElementById("emailInfo").textContent =
