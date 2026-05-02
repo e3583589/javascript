@@ -161,7 +161,10 @@ $(document).ready(function () {
         valid &= checkZip("#shipzip", "#shipzipErr");
 
         if (!valid) {
-            event.preventDefault();
+         event.preventDefault();
+        } else {
+         event.preventDefault();
+         window.location.href = "thanks.html";
         }
     });
 
