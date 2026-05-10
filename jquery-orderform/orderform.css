@@ -6,14 +6,14 @@ body {
 	width: 10em;
 	float: right;
 	padding: .5em 1em;
-	border: medium #006400 groove;
+	border: medium #ff91cc groove;
 	border-radius: 10px;
 	margin-left: 1em;
 }
 #container {
 	width: 50em;
 	margin: 1em auto;
-	border: outset thick darkgreen;
+	border: outset thick rgb(255, 131, 191);
 	background-color: rgba(255,255,255,.9);
 	padding: 1em;
 	font-family: Arial, Helvetica, sans-serif;
@@ -33,7 +33,7 @@ legend {
 	color: darkgreen;
 }
 h1, h2, h3 {
-	color: darkgreen;
+	color: rgb(255, 105, 205);
 	text-align: center;
 	line-height: .7em;
 	font-family: "Comic Sans MS";
@@ -111,4 +111,23 @@ footer {
 }
 .pic {
 	border-bottom: thin dashed darkgreen;
+}
+
+.back-home {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+  background-color: #ff92ca;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background-color: #ff418d;
+  transform: scale(1.05);
 }

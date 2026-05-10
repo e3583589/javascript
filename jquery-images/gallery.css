@@ -1,18 +1,19 @@
 body {
 	background: url(../images/fallbg.jpg);
 	background-size: cover;
+	background-color: #fff5f8;
 	background-repeat: repeat-y;
 	box-sizing: border-box;
 }
 h1, h2, h3 {
-	color: darkgreen;
+	color: rgb(255, 92, 160);
 	line-height: .7em;
 	font-family: "Comic Sans MS";
 }
 #container {
 	width: 50em;
 	margin: 1em auto;
-	border: outset thick darkgreen;
+	border: outset thick rgb(255, 136, 229);
 	background-color: rgba(255,255,255,.9);
 	padding: 1em;
 	font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +22,7 @@ h1, h2, h3 {
 	text-align: center;
 }
 #lgPic {
-	border: thick groove darkgreen;
+	border: thick groove rgb(255, 130, 224);
 	width: 320px;
 }
 #cameo {
@@ -33,4 +34,23 @@ h1, h2, h3 {
 	box-sizing: border-box;
 	padding: 5px;
 	margin: 5px;
+}
+
+.back-home {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+  background-color: #f864b1;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background-color: #ff418d;
+  transform: scale(1.05);
 }

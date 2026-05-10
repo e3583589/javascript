@@ -1,12 +1,12 @@
 body {
-  background-color: darkseagreen;
+  background-color: rgb(255, 182, 250);
   background-size: cover;
   background-repeat: repeat-y;
 }
 main {
   width: 50em;
   margin: 1em auto;
-  border: outset thick darkgreen;
+  border: outset thick rgb(255, 111, 219);
   background-color: cornsilk;
   padding: 1em;
   font-family: Arial, Helvetica, sans-serif;
@@ -42,7 +42,7 @@ legend {
 }
 h1,
 h2 {
-  color: darkgreen;
+  color: rgb(255, 133, 237);
   text-align: center;
   line-height: 0.7em;
   font-family: "Comic Sans MS";
@@ -106,3 +106,23 @@ input[type="submit"] {
   background-color: #afeeee;
   text-align: center;
 }
+
+.back-home {
+  float: right;
+  margin-right: 20px;
+  margin-top: -30px;
+  background-color: #ff92ca;
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.back-home:hover {
+  background-color: #ff418d;
+  transform: scale(1.05);
+}
+

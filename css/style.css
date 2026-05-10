@@ -9,7 +9,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fff5f8;
+  background-color: #ffd2eb;
   color: #000000;
   padding: 20px;
 }
@@ -92,4 +92,63 @@ footer {
   font-size: 1.2rem;
   color: #e91e63;
   margin-top: 10px;
+}
+
+/* Projects Section */
+#projects {
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 20px;
+}
+
+#projects h2 {
+  font-size: 2rem;
+  color: #e91e63;
+  margin-bottom: 15px;
+}
+
+#projects p {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+}
+
+/* Project Links Grid */
+.project-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* Individual Project Buttons */
+.project-links a {
+  display: inline-block;
+  background-color: #e91e63;
+  color: white;
+  text-decoration: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  background-color: #c2185b;
+  transform: scale(1.05);
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #c2185b;
 }

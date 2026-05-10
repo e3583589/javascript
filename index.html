@@ -7,19 +7,37 @@
 
   <!-- External CSS -->
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 <body>
 
   <header>
     <h1>Welcome to My Homepage</h1>
     <p class="tagline">Learning JavaScript one step at a time</p>
-    <p id="welcome-message"></p>
+    <p id="welcome-message">Welcome to my website! Feel free to explore my projects.</p>
+       <button onclick="showDate()">Click to See Today’s Date</button>
+    <p id="date-display"></p>
   </header>
 
-  <nav>
-    <a href="index.html">Home</a> |
-    <a href="test.html">Lab 1</a> 
-  </nav>
+  <section id="projects">
+  <h2>My JavaScript Projects</h2>
+  <p>Below are the projects I completed throughout this course, demonstrating my growth in HTML, CSS, JavaScript, and jQuery.</p>
+
+  <div class="project-links">
+    <a href="quotes.html">Quotes Of The Day</a>
+    <a href="test.html">Hello World!</a>
+    <a href="secret-number-game.html">Secret Number Game</a>
+    <a href="docs/quiz-game/quiz.html">Princess Quiz</a>
+    <a href="docs/quiz-game/trivia.html">Princess trivia</a>
+    <a href="trivia-game/game.html">Trivia Game</a>
+    <a href="jquery-assignment/jquery-intro.html">jQuery Introduction</a>
+    <a href="jquery-glossary/glossary.html">jQuery Glossary</a>
+    <a href="jquery-effects/effects.html">jQuery Effects</a>
+    <a href="jquery-dom/shopping.html">Shopping Cart</a>
+    <a href="jquery-images/gallery.html">Photo Gallery</a>
+    <a href="jquery-orderform/orderform.html">Order Form</a>
+  </div>
+</section>
 
   <!-- Main Content -->
   <main>
@@ -27,19 +45,22 @@
       <section>
         <img src="images/profilie.jpg" alt="Photo of Marion Odhiambo" class="profile-image">
         <h2>About Me</h2>
+        <button id="toggleBio">Show/Hide Bio</button>
+        <button id="fadePhoto">Show/Hide Photo</button>
+        
+        <div class="bio-text">
         <p>
-          Hello, my name is <span class="highlight">Marion Odhiambo</span>. I am taking this class to learn web development 
-          and improve my skills in JavaScript. This course is also required for my degree plan 
-          as a future web designer.
+            Hello, my name is <span class="highlight">Marion Odhiambo</span>. I am taking this class to strengthen my web development skills and prepare for my future career as a web designer.
         </p>
         <p>
-          I’m very excited to gain more experience in building interactive websites and learning 
-          best practices for coding. This homepage will grow as I learn more about JavaScript fundamentals.
+            Throughout this course, I learned how to use HTML, CSS, JavaScript, and jQuery to create interactive and user-friendly websites. I practiced techniques such as DOM manipulation, event handling, image galleries, shopping carts, form interactions, and website publishing through GitHub Pages.
+            This class has helped me better understand front-end development and improved my confidence in designing websites that are both functional and visually appealing. These skills will support my professional goals in web design and development.
         </p>
         <p>
-          One helpful resource I use often is 
+          One helpful resource I used throughout this semester is 
           <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.
         </p>
+        </div>
       </section>
     </div>
   </main>
