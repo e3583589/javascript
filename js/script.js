@@ -1,6 +1,12 @@
 function showDate() {
-  document.getElementById("date-display").textContent =
-    "Today's date is: " + new Date().toDateString();
+  const dateDisplay = document.getElementById("date-display");
+
+  if (dateDisplay.textContent !== "") {
+    dateDisplay.textContent = "";
+  } else {
+    dateDisplay.textContent =
+      "Today's date is: " + new Date().toDateString();
+  }
 }
 
 $(document).ready(function () {
@@ -12,3 +18,4 @@ $(document).ready(function () {
     $(".profile-image").fadeToggle();
   });
 });
+
