@@ -9,7 +9,20 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #ffd2eb;
+  color: #000000;
+  padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background:
+    linear-gradient(rgba(173, 216, 230, 0.45), rgba(173, 216, 230, 0.45)),
+    url("../images/homepage.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: #000000;
   padding: 20px;
 }
